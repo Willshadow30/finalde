@@ -1,0 +1,67 @@
+body{
+    background-color:
+    #0d1117; /* Dark background */
+    color: #58a6ff; /* Neon text color */
+    font-family: 'Fira Code', monospace /* Monospace font */
+}
+
+a{
+    color: #8b949e;
+    text-decoration: none;
+}
+a:hover{
+    color: #58a6ff;
+    text-decoration: underline;
+}
+
+/* Table style for a digital look */
+table {
+    border-collapse: collapse;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td{
+    border:1px solid #30363d;
+    text-align: left;
+    padding: 8px
+}
+th {
+    background-color: #161b22;
+    color:white;
+}
+
+/* Button with a techy feel */
+button{
+    background-color: #21262d;
+    color: white;
+    border:none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #58a6ff;
+    color:black
+}
+
+/* Footer with a flex layout */
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #161b22;
+}
+
+/* Customizing the cursor to a techy look */
+.custom-cursor{
+    cursor:
+    url('http://www.rw-designer.com/cursor-detail/61756')
+}

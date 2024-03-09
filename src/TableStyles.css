@@ -1,0 +1,7 @@
+.centered-table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.name-column { width: 100px; }
+.age-column { width: 50px; }
+.email-column { width: 10px; }
